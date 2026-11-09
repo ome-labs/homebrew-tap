@@ -10,18 +10,18 @@ class Ome < Formula
   on_macos do
     on_arm do
       url "https://github.com/ome-labs/ome/releases/download/v0.1.0/ome-0.1.0-darwin-arm64.tar.gz"
-      sha256 "2f46a879200e847dc837244653d1dd5409535472b60e626bf09d5b291259fe99"
+      sha256 "1c613ca915c2510ea32a17222e770e04e6ac8f7cbd34575d960dc2b3486dc517"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ome-labs/ome/releases/download/v0.1.0/ome-0.1.0-linux-x64.tar.gz"
-      sha256 "4c3445e3de5484d29abe330c252eb3def55a51e9c9ccfa8ebf2e97756e8ce319"
+      sha256 "e6bef3b827f21112231ad532d5a728272a3cd64674600c519cb6f9d944997280"
     end
     on_arm do
       url "https://github.com/ome-labs/ome/releases/download/v0.1.0/ome-0.1.0-linux-arm64.tar.gz"
-      sha256 "d1ffd069974f8baa32b5dd0f2e1e37e7a97a121693517c9ea9181c872ddc42db"
+      sha256 "b0b27ffebb106f906ae960206fedda481c27b9003015dd97d2204705fe777130"
     end
   end
 
