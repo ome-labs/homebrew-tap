@@ -2,26 +2,26 @@
 class Ome < Formula
   desc "Private k-of-n multisig on Aztec with threshold viewing"
   homepage "https://ome.network"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   depends_on "node@24"
 
   on_macos do
     on_arm do
-      url "https://github.com/ome-labs/ome/releases/download/v0.2.0/ome-0.2.0-darwin-arm64.tar.gz"
-      sha256 "6a4fbe783f90bd167db9205d39d2ff4560466487ba268f2685e76de278d1d070"
+      url "https://github.com/ome-labs/ome/releases/download/v0.3.0/ome-0.3.0-darwin-arm64.tar.gz"
+      sha256 "a0472852b9f764cc3887ade02c916c38fc1f333366214b018f22cc1ba6e53582"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ome-labs/ome/releases/download/v0.2.0/ome-0.2.0-linux-x64.tar.gz"
-      sha256 "7315661fa8916d7a836d935848f1d97da44e613972342659f99b45738d554795"
+      url "https://github.com/ome-labs/ome/releases/download/v0.3.0/ome-0.3.0-linux-x64.tar.gz"
+      sha256 "b90e37594053b5f469d396414fe938e140e98973fad1a738624a7673590796e9"
     end
     on_arm do
-      url "https://github.com/ome-labs/ome/releases/download/v0.2.0/ome-0.2.0-linux-arm64.tar.gz"
-      sha256 "b4930051e316dddd3a7a62b92e4556543fe8914f3774683a3490e2d916886be3"
+      url "https://github.com/ome-labs/ome/releases/download/v0.3.0/ome-0.3.0-linux-arm64.tar.gz"
+      sha256 "ab2c7d470de625f985dd1616a16693d5f515c855b3ad9a567e0bf27dad572959"
     end
   end
 
